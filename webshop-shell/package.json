@@ -1,0 +1,62 @@
+{
+  "name": "webshop-shell",
+  "version": "1.0.4",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "@angular/common": "^14.3.0",
+    "@angular/compiler": "^14.3.0",
+    "@angular/core": "^14.3.0",
+    "@angular/platform-browser": "^14.3.0",
+    "@angular/platform-browser-dynamic": "^14.3.0",
+    "core-js": "^3.30.1",
+    "piral": "0.15.8",
+    "piral-base": "0.15.8",
+    "piral-core": "0.15.8",
+    "piral-ng": "^0.15.8",
+    "piral-solid": "^0.15.9",
+    "piral-svelte": "^0.15.9",
+    "piral-vue": "^0.15.9",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^5",
+    "react-router-dom": "^5",
+    "solid-js": "^1.7.3",
+    "vue": "^2.7.14",
+    "zone.js": "^0.11.4"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build",
+    "postinstall": "piral declaration"
+  },
+  "app": "./src/index.html",
+  "types": "dist/index.d.ts",
+  "importmap": {
+    "imports": {
+      "@angular/common": "",
+      "@angular/compiler": "",
+      "@angular/core": "",
+      "@angular/platform-browser": "",
+      "@angular/platform-browser-dynamic": "",
+      "piral-ng/common": "",
+      "rxjs": "",
+      "zone.js": "",
+      "vue": "",
+      "solid-js": "",
+      "solid-js/web": ""
+    }
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "piral-cli": "0.15.8",
+    "piral-cli-webpack5": "0.15.9",
+    "typescript": "latest"
+  }
+}

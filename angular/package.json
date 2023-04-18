@@ -1,0 +1,44 @@
+{
+  "name": "bachelorproef-webshop-angular",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "@angular/common": "14.3.0",
+    "@angular/compiler": "14.3.0",
+    "@angular/core": "14.3.0",
+    "@angular/platform-browser": "14.3.0",
+    "@angular/platform-browser-dynamic": "14.3.0",
+    "@types/node": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "my-app": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.1.tgz",
+    "piral-cli": "0.15.8",
+    "piral-cli-webpack5": "0.15.9",
+    "rxjs": "7.8.0",
+    "typescript": "latest",
+    "zone.js": "0.11.8"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "importmap": {
+    "imports": {},
+    "inherit": [
+      "my-app"
+    ]
+  },
+  "dependencies": {
+    "piral-ng": "^0.15.9"
+  }
+}
+

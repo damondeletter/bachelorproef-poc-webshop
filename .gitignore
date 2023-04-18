@@ -1,0 +1,13 @@
+angular/node_modules
+React/node_modules
+Solid/node_modules
+Svelte/node_modules
+Vue/node_modules
+webshop-shell/node_modules
+
+angular/dist
+React/dist
+Solid/dist
+Svelte/dist
+Vue/dist
+webshop-shell/dist
