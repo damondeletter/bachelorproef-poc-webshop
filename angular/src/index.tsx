@@ -1,6 +1,8 @@
 import { PiletApi } from 'my-app';
 import { TileModule } from './TileModule';
-import { TileComponent } from './TileComponent';
+import { AboutPage } from './AboutPage';
+import { Link} from "react-router-dom";
+import * as React from 'react';
 
 /**
  * Shows an API extension using Angular components.
@@ -8,8 +10,7 @@ import { TileComponent } from './TileComponent';
 export function setup(piral: PiletApi) {
   piral.defineNgModule(TileModule);
 
-  piral.registerTile(piral.fromNg(TileComponent), {
-    initialColumns: 2,
-    initialRows: 2,
-  });
+  piral.registerMenu(() => <Link to="/about">About</Link>)
+  piral.registerPage('/about', piral.fromNg(AboutPage));
+
 }

@@ -1,6 +1,6 @@
 {
   "name": "bachelorproef-webshop-svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [
     "pilet"
@@ -17,9 +17,10 @@
     "piral-cli": "0.15.8",
     "piral-cli-parcel": "0.15.0",
     "rxjs": "7.8.0",
+    "solid-js": "^1.7.3",
     "typescript": "latest",
     "vue": "2.7.14",
-    "webshop-shell": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.3.tgz",
+    "webshop-shell": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.7.tgz",
     "zone.js": "0.11.8"
   },
   "scripts": {

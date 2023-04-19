@@ -1,8 +1,10 @@
 import type { PiletApi } from 'webshop-shell';
 
-import Page from './Page';
+import ConfirmationPage from './Confirmation';
+import Footer from './Footer';
 
 export function setup(app: PiletApi) {
-  app.registerPage('/pagesolid', app.fromSolid(Page));
+  app.registerPage('/order-confirmation', app.fromSolid(ConfirmationPage));
+  app.registerExtension('footer', app.fromSolid(Footer));
 
 }

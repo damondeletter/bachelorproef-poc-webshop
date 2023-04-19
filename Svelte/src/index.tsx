@@ -1,9 +1,19 @@
-import * as React from 'react';
-import { Link } from 'react-router-dom';
-import type { PiletApi } from 'webshop-shell';
+import { PiletApi } from 'webshop-shell';
+import WordFront from './WordFrontPage.svelte';
 
-import Page from './Page.svelte';
+import OrderPage from './Order.svelte';
+
 
 export function setup(app: PiletApi) {
-  app.registerPage('/pagesvelte', app.fromSvelte(Page));
+
+
+  console.log('APPDATA', app.getData('cart'))
+  app.registerPage('/order', app.fromSvelte(OrderPage))
+
+  app.registerTile(app.fromSvelte(WordFront), {
+    initialColumns: 2,
+    initialRows: 2,
+  });
+
 }
+

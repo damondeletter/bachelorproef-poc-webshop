@@ -1,11 +1,12 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'piral-ng/common';
-import { TileComponent } from './TileComponent';
+
+import { AboutPage } from './AboutPage';
 
 @NgModule({
-  declarations: [TileComponent],
-  exports: [TileComponent],
+  declarations: [ AboutPage],
+  exports: [ AboutPage],
   imports: [SharedModule, CommonModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

@@ -1,6 +1,6 @@
 {
   "name": "bachelorproef-webshop-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [
     "pilet"
@@ -14,10 +14,11 @@
     "@types/node": "latest",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "my-app": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.1.tgz",
+    "my-app": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.7.tgz",
     "piral-cli": "0.15.8",
     "piral-cli-webpack5": "0.15.9",
     "rxjs": "7.8.0",
+    "solid-js": "^1.7.3",
     "typescript": "latest",
     "zone.js": "0.11.8"
   },
@@ -41,4 +42,3 @@
     "piral-ng": "^0.15.9"
   }
 }
-

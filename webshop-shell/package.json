@@ -1,6 +1,6 @@
 {
   "name": "webshop-shell",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
   "keywords": [
     "piral"
@@ -47,7 +47,11 @@
       "vue": "",
       "solid-js": "",
       "solid-js/web": ""
-    }
+    },
+    "inherit": [
+      "piral-base",
+      "piral-core"
+    ]
   },
   "devDependencies": {
     "@types/node": "latest",

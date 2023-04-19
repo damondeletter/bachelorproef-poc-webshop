@@ -1,6 +1,6 @@
 {
   "name": "bachelorproef-webshop-vue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "keywords": [
     "pilet"
@@ -16,13 +16,17 @@
     "@types/react-dom": "^18",
     "piral-cli": "0.15.8",
     "piral-cli-webpack5": "0.15.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
     "rxjs": "7.8.0",
+    "webshop-shell": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.7.tgz",
     "typescript": "latest",
-    "zone.js": "0.11.8",
     "vue": "2.7.14",
     "vue-loader": "^15.0.0",
     "vue-template-compiler": "^2.6.10",
-    "webshop-shell": "file:../webshop-shell/dist/emulator/webshop-shell-1.0.2.tgz"
+    "zone.js": "0.11.8"
   },
   "scripts": {
     "start": "pilet debug",
@@ -39,5 +43,8 @@
     "inherit": [
       "webshop-shell"
     ]
+  },
+  "dependencies": {
+    "solid-js": "^1.7.3"
   }
 }
