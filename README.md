@@ -83,8 +83,26 @@ Bv: het volgende commando zal de pilet opstarten in debug-modus
 ```
 pilet debug
 ```
-# Overzicht gebruikte frameworks
+# Overzicht gebruikte frameworks en libraries
+* Overzichtpagina products --> react
 
+* Productcards --> react 
+
+* Add to cart button in productcard --> vue 
+
+* Aboutsectie op overzichtpagina --> svelte 
+
+* Footer --> solidjs 
+
+* Cartpagina --> vue 
+
+* Recommended products op cartpagina --> react 
+
+* Orderpagina --> svelte 
+
+* Confirmpagina --> solid
+
+* About-pagina --> angular
 # Installatie
 Om dit project lokaal te runnen, is het aangeraden om een account te registren op https://feed.piral.cloud/.
 
@@ -103,6 +121,5 @@ Doordat de pilets op een feed staan die mogelijks niet openbaar staat, kan de ap
  pilet publish --fresh --api-key [API_KEY] --url [FEED_URL]
  ```
 (alles tussen [] dient vervangen te worden met eigen waarden)
-
 
 
