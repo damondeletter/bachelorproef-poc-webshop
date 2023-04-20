@@ -6,7 +6,7 @@ Deze repository is onderdeel van de bachelorproef omtrent microfrontends:
 
 
   * **Student:** Damon De Letter
-  * **Studentennummer:** ...
+  * **Studentennummer:** 202075027
   * **In samenspraak met:** promotor Thomas Aelbrecht en co-promotor Clint Cambier 
   * **Studierichting:** Toegepaste Informatica - Enterprise and mobile development
 # Project
