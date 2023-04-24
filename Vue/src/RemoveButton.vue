@@ -9,7 +9,6 @@ export default {
   methods: {
     removeFromCart(item) {
       this.$emit("removeFromCart", item);
-      console.log("GELUKT")
     },
   },
 };

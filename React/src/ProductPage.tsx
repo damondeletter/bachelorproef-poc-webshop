@@ -22,7 +22,6 @@ export const ProductPage: React.FC<ProductPageProps> = ({ products, AddButton })
                       image={product.image}
                       addBtn={<AddButton item={product} />}
                   />
-                
                 ))}
         </div>
         </div>

@@ -40,7 +40,7 @@ import { Component, Inject } from '@angular/core';
       .ceo {
         font-weight: bold;
       }
-      
+            
       .profilepicture {
         border-radius: 50%;
       }

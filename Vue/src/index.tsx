@@ -78,25 +78,3 @@ export function setup(app: PiletApi) {
   app.registerPage("/cart", app.fromVue(Cart, { cart: app.getData('cart') }) );
 
 }
-
-
-// removeFromCart(item) {
-
-
-//   const cart = this.cart;
-
-//   const index = cart.findIndex((item2) => item2.product_id === item.product_id);
-//   console.log('log is index daar', index)
-//   if (index !== -1) {
-//     console.log("cart poef", cart[index])
-//     if (cart[index].quantity > 1) {
-      
-//       this.cart[index].quantity--;
-//     } else {
-//       this.cart.splice(index, 1);
-//     }
-//   }
-
-//   this.cartSubtotal();
-//   this.applyDiscount();
-// },

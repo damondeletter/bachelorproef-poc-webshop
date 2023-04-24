@@ -1,5 +1,4 @@
 import type { PiletApi } from 'webshop-shell';
-
 import ConfirmationPage from './Confirmation';
 import Footer from './Footer';
 
