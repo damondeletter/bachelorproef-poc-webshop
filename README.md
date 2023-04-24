@@ -157,10 +157,19 @@ Doordat de pilets op een feed staan die niet door anderen aangepast dient te wor
 
 3. Via "Manage API keys" kan een API-key aangemaakt worden, om pilets mee te publishen. LET OP: deze key is slechts 1 maal zichtbaar.
 
-4. De pilets kunnen nu gepublished worden op deze eigen feed, via het commando: 
-```
- pilet publish --fresh --api-key [API_KEY] --url [FEED_URL]
- ```
-(alles tussen [] dient vervangen te worden met eigen waarden)
+4. Er dient een ```.env``` bestand aangemaakt te worden in de root van het project. Deze moet volgende waarden bevatten (uit de vorige stappen):
+- PIRAL_FEED_URL=""
+- PIRAL_FEED_API_KEY=""
+
+Tussen de ```""``` kunnen de waarden geplaatst worden.
+
+5. De pilets kunnen nu gepublished worden op deze eigen feed, door een script te runnen: 
+  - WINDOWS: 
+    - ```publish.sh```
+    - ```./publish.sh```
+  - MACOS:
+    - ```publish.sh```
+    - ```sh publish.sh```
+
 
 
