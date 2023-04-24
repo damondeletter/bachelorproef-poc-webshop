@@ -6,7 +6,7 @@ Deze repository is onderdeel van de bachelorproef omtrent microfrontends:
 
 
   * **Student:** Damon De Letter
-  * **Studentennummer:** ...
+  * **Studentennummer:** 202075027
   * **In samenspraak met:** promotor Thomas Aelbrecht en co-promotor Clint Cambier 
   * **Studierichting:** Toegepaste Informatica - Enterprise and mobile development
 # Project
@@ -83,7 +83,7 @@ Bv: het volgende commando zal de pilet opstarten in debug-modus
 ```
 pilet debug
 ```
-# Overzicht gebruikte frameworks
+# Overzicht gebruikte frameworks en libraries
 * Overzichtpagina products --> react
 
 * Productcards --> react 
@@ -98,7 +98,7 @@ pilet debug
 
 * Recommended products op cartpagina --> react 
 
-* Orderpagina --> svelte `
+* Orderpagina --> svelte 
 
 * Confirmpagina --> solid
 
