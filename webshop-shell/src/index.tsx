@@ -14,7 +14,7 @@ import { createSvelteApi } from "piral-svelte";
 import { createSolidApi } from "piral-solid";
 
 // change to your feed URL here (either using feed.piral.cloud or your own service)
-const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/bachelorproef-webshop';
+const feedUrl = process.env.PIRAL_FEED_URL || 'https://feed.piral.cloud/api/v1/pilet/empty';
 
 const instance = createInstance({
   state: {

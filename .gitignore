@@ -11,3 +11,5 @@ Solid/dist
 Svelte/dist
 Vue/dist
 webshop-shell/dist
+
+.env
