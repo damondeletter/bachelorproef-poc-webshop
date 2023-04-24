@@ -51,10 +51,7 @@ De webshop is slechts een proof of concept! De producten zijn fictief, alsook wo
 # Demo
 Hier is een korte demovideo waar de functionaliteiten worden getoond.
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/watch?v=OKf9wie8fVE&feature=youtu.be" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
+https://www.youtube.com/watch?v=OKf9wie8fVE
 
 # Doel PoC
 Het doel van deze PoC is om aan te tonen dat verschillende frameworks en libraries op dezelfde webapplicatie gebruikt kunnen worden. Door het concept van een SPA te nemen en deze op te splitsen in kleinere onderdelen (microfrontends) is het mogelijk om verschillende taken te verdelen aan meerdere teams.
