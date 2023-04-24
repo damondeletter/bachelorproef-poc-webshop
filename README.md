@@ -104,19 +104,54 @@ pilet debug
 
 * About-pagina --> angular
 # Installatie
-Om dit project lokaal te runnen, is het aangeraden om een account te registren op https://feed.piral.cloud/.
+Er is reeds een script voorzien die de shell en alle pilets zal installeren en builden. De code voor dit script kan bekeken worden in het bestand: "install.sh".
 
-Doordat de pilets op een feed staan die mogelijks niet openbaar staat, kan de applicatie deze dan ook niet tonen.
+Bij vragen over het effect van het script, kan u mij altijd contacteren. (damondeletter.dev@gmail.com)
 
-1. Allereerst dient de shell geïnstalleerd te worden, omdat de pilets hiermee werken. Alle dependencies die in de importmap staan (package.json) worden doorgegeven aan de pilets, zodat er geen onderlinge depdencies conflicts zijn. 
+Volgende stappen dienen uitgevoerd te worden voordat de webapplicatie opgestart kan worden.
 
-2. Vervolgens kunnen de pilets 1 voor 1 geïnstalleerd worden.
+1. Clone het project op een plek naar keuze: 
+  ```git clone https://github.com/damondeletter/bachelorproef-poc-webshop.git```
 
-3. In de index.tsx van de shell kan een url teruggevonden worden, die verwijst naar de online feed. Door zelf 1 aan te maken en de url te vervangen, kunnen de pilets aangepast worden voor eigen gebruik.
+2. Navigeer naar het project:
+```cd bachelorproef-poc-webshop```
 
-4. Via "Manage API keys" kan een API-key aangemaakt worden, om pilets mee te publishen. LET OP: deze key is slechts 1 maal zichtbaar.
+3. Afhankelijk van de OS van uw toestel kunnen meerdere commando's werken:
+  - WINDOWS: 
+    - ```install.sh```
+    - ```./install.sh```
+  - MACOS:
+    - ```install.sh```
+    - ```sudo sh install.sh```
 
-5. De pilets kunnen nu gepublished worden op deze eigen feed, via het commando: 
+  Dit zal eerst de shell installeren en builden, gevolgd door alle pilets. Dit proces kan enkele minuten duren.
+
+  Zodra de CLI klaar is met alle installaties en builds, kunnen zowel de shell als pilets opgestart worden.
+
+4. Om de shell te starten (volledige applicatie): 
+```cd webshop-shell``` 
+en om hem op te starten:
+```piral debug``` 
+
+5. Om de pilets op te starten (zelfde werkwijze per pilet):
+```cd [pilet]```
+en om hem op te starten:
+```pilet debug```
+
+([pilet] dient vervangen te worden door een pilet-directory, bv: React)
+# Aanpassingen
+Om dit project lokaal te runnen en veranderingen door te brengen, is het aangeraden om een account te registren op https://feed.piral.cloud/.
+
+Doordat de pilets op een feed staan die niet door anderen aangepast dient te worden, zal er een eigen feed opgesteld moeten worden.
+
+1. Voer allereerst de stappen van "Installatie" uit.
+
+
+2. In de index.tsx van de shell kan een url teruggevonden worden, die verwijst naar de online feed. Door zelf 1 aan te maken en de url te vervangen, kunnen de pilets aangepast worden voor eigen gebruik.
+
+3. Via "Manage API keys" kan een API-key aangemaakt worden, om pilets mee te publishen. LET OP: deze key is slechts 1 maal zichtbaar.
+
+4. De pilets kunnen nu gepublished worden op deze eigen feed, via het commando: 
 ```
  pilet publish --fresh --api-key [API_KEY] --url [FEED_URL]
  ```
