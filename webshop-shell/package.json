@@ -60,6 +60,7 @@
     "@types/react-router": "^5",
     "@types/react-router-dom": "^5",
     "piral-cli": "0.15.8",
+    "piral-cli-dotenv": "^0.2.0",
     "piral-cli-webpack5": "0.15.9",
     "typescript": "latest"
   }
