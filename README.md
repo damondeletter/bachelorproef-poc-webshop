@@ -134,12 +134,19 @@ Volgende stappen dienen uitgevoerd te worden voordat de webapplicatie opgestart 
 
   Zodra de CLI klaar is met alle installaties en builds, kunnen zowel de shell als pilets opgestart worden.
 
-4. Om de shell te starten (volledige applicatie): 
+4. Er dient een .env-bestand toegevoegd te worden, zowel in de root van de shell. Deze ziet er zo uit:
+```
+PIRAL_FEED_URL="[FEED_URL]"
+```
+
+De [FEED_URL] dient vervangen te worden door een eigen waarde.
+
+5. Om de shell te starten (volledige applicatie): 
 ```cd webshop-shell``` 
 en om hem op te starten:
-```piral debug``` 
+```piral debug --env``` 
 
-5. Om de pilets op te starten (zelfde werkwijze per pilet):
+6. Om de pilets op te starten (zelfde werkwijze per pilet):
 ```cd [pilet]```
 en om hem op te starten:
 ```pilet debug```
